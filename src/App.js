@@ -5,6 +5,8 @@ import Topbar from "./components/Navbar";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import PortfolioItems from './components/pages/PortfolioItems';
 import Intrests from './components/pages/Interests';
+import Home from "./components/pages/Home";
+
 
 
 function App() {
@@ -20,11 +22,11 @@ function App() {
       <div>
         <Topbar />
         <Switch>
-          <Route path="/about">
-            <About />
+          <Route path="/portfolio">
+            <PortfolioItems />
           </Route>
-          <Route path="/users">
-            <Users />
+          <Route path="/intrests">
+            <Intrests />
           </Route>
           <Route path="/">
             <Home />
@@ -37,9 +39,9 @@ function App() {
 );
 }
 
-function Home() {
-  return <h2>Home</h2>;
-}
+// function Home() {
+//   return <h2>Home</h2>;
+// }
 
 function About() {
   return <h2>About</h2>;

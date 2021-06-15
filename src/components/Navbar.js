@@ -13,8 +13,8 @@ function Topbar({location}) {
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
       <Nav.Link href="/" active={pathname=="/"}>{("Home")}</Nav.Link>
-      <Nav.Link href="/users" active={pathname=="/"}>{("Users")}</Nav.Link>
-      <Nav.Link href="/about" active={pathname=="/"}>{("About")}</Nav.Link>
+      <Nav.Link href="/portfolio" active={pathname=="/"}>{("Portfolio")}</Nav.Link>
+      <Nav.Link href="/intrests" active={pathname=="/"}>{("Intrests")}</Nav.Link>
      
      
     </Nav>
