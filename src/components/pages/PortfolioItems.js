@@ -1,13 +1,30 @@
 import React from "react";
+import {Card} from "react-bootstrap";
+import {PortfolioContent} from "../PortfolioContent"
 
-function PortfolioItems() {
+const PortfolioItems = () => {
     return(
         <div>
-            <h1>
-                Portfolio page
-            </h1>
-        </div>
+        {
+         PortfolioContent.map((item) =>
+        <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={item.image} />
+      <Card.Body>
+        <Card.Link href={item.url} target="_blank" >
+         
+        <h4>{item.title}</h4>
+           
+        </Card.Link>
+        <Card.Text >
+          {item.description}
+        </Card.Text>
+      </Card.Body>
+       
+    </Card>
+       )
+    }
+    </div>
     );
-}
 
+    }
 export default PortfolioItems;
