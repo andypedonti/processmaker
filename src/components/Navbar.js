@@ -40,9 +40,9 @@ function Topbar({location}) {
     const {pathname} = location;
     
     return(
-<Navbar className="Navbar" expand="lg">
+<Navbar className="Navbar" >
   <Navbar.Brand style={{color: "#F7F7F2"}}>Andy Pedonti</Navbar.Brand>
-  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
       <Nav.Link style={{color: "#F7F7F2"}} href="/" active={pathname==="/"}>{("Home")}</Nav.Link>

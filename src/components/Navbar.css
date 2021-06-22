@@ -1,10 +1,25 @@
 .Navbar {
     background: #121113;
     color: #F7F7F2;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
 }
+
+    @media (max-width: 425px) {
+        .Navbar{
+        flex-direction: column;
+        }
+    }
+
+  
 
 .Brand {
     color: #F7F7F2
+}
+
+.mr-auto{
+
 }
 
 
