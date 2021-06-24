@@ -21,10 +21,10 @@ function App() {
       <div>
         <Topbar />
         <Switch>
-          <Route path={process.env.PUBLIC_URL + "/portfolio"}>
+          <Route exact path="/portfolio" component={PortfolioItems}> 
             <PortfolioItems />
           </Route>
-          <Route path={process.env.PUBLIC_URL + "/"}>
+          <Route exact path="/" component={Home}>
             <Home />
           </Route>
         </Switch>
