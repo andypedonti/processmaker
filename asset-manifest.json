@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/processmaker/static/css/main.4b8e7f4c.chunk.css",
-    "main.js": "/processmaker/static/js/main.9f4fc069.chunk.js",
-    "main.js.map": "/processmaker/static/js/main.9f4fc069.chunk.js.map",
+    "main.js": "/processmaker/static/js/main.7c706516.chunk.js",
+    "main.js.map": "/processmaker/static/js/main.7c706516.chunk.js.map",
     "runtime-main.js": "/processmaker/static/js/runtime-main.314e4748.js",
     "runtime-main.js.map": "/processmaker/static/js/runtime-main.314e4748.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/processmaker/static/css/2.4c97ca4f.chunk.css",
@@ -27,6 +27,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.b7248f9b.chunk.js",
     "static/css/main.4b8e7f4c.chunk.css",
-    "static/js/main.9f4fc069.chunk.js"
+    "static/js/main.7c706516.chunk.js"
   ]
 }
