@@ -35,9 +35,9 @@ cursor: pointer;
 }
 `;
 
-function Topbar({location}) {
+function Topbar() {
     
-    const {pathname} = location;
+    const location = useLocation();
     
     return(
 <Navbar className="Navbar" >
@@ -45,8 +45,16 @@ function Topbar({location}) {
   
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link style={{color: "#F7F7F2"}} href="/" active={pathname==="/"}>{("Home")}</Nav.Link>
-      <Nav.Link style={{color: "#F7F7F2"}} href="/portfolio" active={pathname==="/"}>{("Portfolio")}</Nav.Link>
+      <Link style={{color: "#F7F7F2"}} 
+      to="/" className={location.pathname=== "/" ? "nav-link active" : "nav-link"}
+      >
+        Home
+        </Link>
+      <Link style={{color: "#F7F7F2"}} 
+      to="/portfolio" className={location.pathname==="/portfolio" ? "nav-link active" : "nav-link"}
+      >
+      Portfolio
+      </Link>
     </Nav>
      <Form className="d-flex">
     <Email 

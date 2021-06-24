@@ -20,14 +20,14 @@ function App() {
       <Router>
       <div>
         <Topbar />
-        <Switch>
-          <Route exact path="/portfolio" component={PortfolioItems}> 
-            <PortfolioItems />
-          </Route>
-          <Route exact path="/" component={Home}>
-            <Home />
-          </Route>
-        </Switch>
+        
+          <Route exact path="/" component={Home} />
+          <Route exact path="/portfolio" component={PortfolioItems} /> 
+           
+          
+            
+          
+        
       </div>
     </Router>
   
