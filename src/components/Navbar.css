@@ -4,6 +4,7 @@
     margin: auto;
     display: flex;
     flex-direction: row;
+    width: 100%
 }
 
     @media (max-width: 425px) {
@@ -18,8 +19,6 @@
     color: #F7F7F2
 }
 
-.mr-auto{
 
-}
 
 

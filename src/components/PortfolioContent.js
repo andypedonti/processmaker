@@ -1,4 +1,4 @@
-import "../components/images/015.jpeg";
+
 
 export const PortfolioContent = [
     
@@ -9,7 +9,7 @@ export const PortfolioContent = [
         description: "The Beauty in this app is I learned how to use API's and geolocation in JavaScript",
         github: "https://github.com/andypedonti/weatherApp",
         style: "{ width: '18rem' }",
-        // image: "../components/images/015.jpeg"
+        image: "../components/images/015.jpeg"
         
         
     },
@@ -20,7 +20,7 @@ export const PortfolioContent = [
         description: "A Node.js app that creates a readme file. Here I learned to use Node and different npm packages",
         github: "https://github.com/andypedonti/pesticideRecord",
         style: "{ width: '18rem' }",
-        // image: "../images/016.jpeg"
+        image: "../images/016.jpeg"
     },
     {
         id: 2,
@@ -29,7 +29,7 @@ export const PortfolioContent = [
         description: "An app that uses JavaScript and CSS to make a daily planner",
         github: "https://github.com/andypedonti/workDayPlanner",
         style: " width: '18rem' ",
-        image: "../images/BigBrown.jpeg" ,
+        image: "../images/BigBrown.jpeg"
     },
     {
         id: 3,
@@ -38,7 +38,7 @@ export const PortfolioContent = [
         description: "An app that uses Express and get, put, and delete routes. Deployed to Heroku",
         github: "https://github.com/andypedonti/noteTaker",
         style: " width: '18rem' ",
-        image: "../images/DSC03191.jpeg",
+        image: "../images/DSC03191.jpeg"
 
     },
     {
@@ -48,7 +48,7 @@ export const PortfolioContent = [
         description: "A simple app that uses JavaScript to test your knowledge of trout",
         github: "https://github.com/andypedonti/javaQuiz",
         style: " width: '18rem' ",
-        image: "../images/DSC03193 2.jpeg",
+        image: "../images/DSC03193 2.jpeg"
         
     },
     {
@@ -58,7 +58,7 @@ export const PortfolioContent = [
         description: "This is a webpage where I learned to use Styled-Components with React to style a page",
         github: "https://github.com/andypedonti/newReactPortfolio",
         style: " width: '18rem' ",
-        image: "../images/DSC03195.jpeg",
+        image: "../images/DSC03195.jpeg"
     },
     {
         id: 6,
@@ -72,3 +72,6 @@ export const PortfolioContent = [
     }
 ]
 
+// https://pttrns.com/
+// https://mobbin.design/patterns/filter?elements=Dialogs
+// https://dribbble.com/shots/popular?tag=button

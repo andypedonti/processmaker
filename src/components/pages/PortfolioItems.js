@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Component} from "react";
 import {Card} from "react-bootstrap";
 import {PortfolioContent} from "../PortfolioContent";
 import styled from "styled-components";
@@ -33,6 +33,7 @@ margin: 5px;
 align-items: center;
 display: block;
 border: 1px;
+
 `;
 
 const ImgSize = styled.div`
@@ -41,116 +42,123 @@ const ImgSize = styled.div`
 
 
 const PortfolioItems = () => {
-    return (
-       <Container>
+  
+    
+    return(
+      
+      
+      <Container style={{backgroundColor: "#F7F7F2"}}>
+     
            <CardSize>
-            <Card >
-            <Card.Img variant="top"  src={img} alt="Img" style={{width: "248px", height: "164px"}} />
-            <Card.Body>
-              <Card.Link href="https://andypedonti.github.io/weatherApp/" target="_blank" >
+             
+               
+               <Card >
+               <Card.Img variant="top"  src={img} alt="Img" style={{width: "248px", height: "164px"}} />
+               <Card.Body style={{backgroundColor: "#121113"}}>
+                 <Card.Link href="https://andypedonti.github.io/weatherApp/" target="_blank" >
+           
+                 <h4 style ={{color: '#F7F7F2'}}>weatherApp</h4>
+           
+                 </Card.Link>
+                 
+               </Card.Body>
+               </Card>
+               </CardSize>
+               <br />
+             <CardSize>
+             <Card >
+             <Card.Img variant="top"  src={big} alt="Img" style={{width: "248px", height: "164px"}} />
+             <Card.Body style={{backgroundColor: "#121113"}}>
+               <Card.Link href="https://github.com/andypedonti/pesticideRecord" target="_blank" >
         
-              <h4 style ={{color: '#121113'}}>WeatherApp</h4>
+               <h4 style ={{color: '#F7F7F2'}}>readMeGenerator</h4>
         
-              </Card.Link>
+               </Card.Link>
               
-            </Card.Body>
-            </Card>
-            </CardSize>
+             </Card.Body>
+             </Card>
+             </CardSize>
 
-            <br />
-            <CardSize>
-            <Card >
-            <Card.Img variant="top"  src={big} alt="Img" style={{width: "248px", height: "164px"}} />
-            <Card.Body>
-              <Card.Link href="https://github.com/andypedonti/pesticideRecord" target="_blank" >
+             <br />
+             <CardSize>
+             <Card >
+             <Card.Img variant="top"  src={imgOne} alt="Img" style={{width: "248px", height: "164px"}} />
+             <Card.Body style={{backgroundColor: "#121113"}}>
+               <Card.Link href="https://andypedonti.github.io/workDayPlanner/" target="_blank" >
         
-              <h4 style ={{color: '#121113'}}>readMeGenerator</h4>
+               <h4 style ={{color: '#F7F7F2'}}>readMeGenerator</h4>
         
-              </Card.Link>
+               </Card.Link>
               
-            </Card.Body>
-            </Card>
-            </CardSize>
+             </Card.Body>
+        
+           </Card>
+           </CardSize>
+           <br />
+           <CardSize>
+             <Card >
+             <Card.Img variant="top"  src={imgThree} alt="Img" style={{width: "248px", height: "164px"}} />
+             <Card.Body style={{backgroundColor: "#121113"}}>
+               <Card.Link href="https://andypedonti.github.io/javaQuiz/" target="_blank" >
+        
+               <h4 style ={{color: '#F7F7F2'}}>troutTester</h4>
+        
+               </Card.Link>
+              
+             </Card.Body>
+        
+           </Card>
+           </CardSize>
+           <br />
+           <CardSize>
+             <Card >
+             <Card.Img variant="top"  src={imgTwo} alt="Img" style={{width: "248px", height: "164px"}} />
+             <Card.Body style={{backgroundColor: "#121113"}}>
+               <Card.Link href="https://andypedonti.github.io/workDayPlanner/" target="_blank" >
+        
+               <h4 style ={{color: '#F7F7F2'}}>noteTaker</h4>
+        
+               </Card.Link>
+              
+             </Card.Body>
+        
+           </Card>
+           </CardSize>
+           <br />
+           <CardSize>
+             <Card >
+             <Card.Img variant="top"  src={imgFour} alt="Img" style={{width: "248px", height: "164px"}} />
+             <Card.Body style={{backgroundColor: "#121113"}}>
+               <Card.Link href="https://andypedonti.github.io/newReactPortfolio/" target="_blank" >
+        
+               <h4 style ={{color: '#F7F7F2'}}>ReactPortfolio</h4>
+        
+               </Card.Link>
+              
+             </Card.Body>
+        
+           </Card>
+           </CardSize>
+           <br />
+           <CardSize>
+             <Card >
+             <Card.Img variant="top"  src={ImgFive} alt="Img" style={{width: "248px", height: "164px"}} />
+             <Card.Body style={{backgroundColor: "#121113"}}>
+               <Card.Link href="https://github.com/andypedonti/processmaker" target="_blank" >
+        
+               <h4 style ={{color: '#F7F7F2'}}>ProcessMaker</h4>
+        
+               </Card.Link>
+              
+             </Card.Body>
+        
+           </Card>
+           </CardSize>
 
-            <br />
-            <CardSize>
-            <Card >
-            <Card.Img variant="top"  src={imgOne} alt="Img" style={{width: "248px", height: "164px"}} />
-            <Card.Body>
-              <Card.Link href="https://andypedonti.github.io/workDayPlanner/" target="_blank" >
-        
-              <h4 style ={{color: '#121113'}}>readMeGenerator</h4>
-        
-              </Card.Link>
-              
-            </Card.Body>
-        
-          </Card>
-          </CardSize>
-          <br />
-          <CardSize>
-            <Card >
-            <Card.Img variant="top"  src={imgThree} alt="Img" style={{width: "248px", height: "164px"}} />
-            <Card.Body>
-              <Card.Link href="https://andypedonti.github.io/javaQuiz/" target="_blank" >
-        
-              <h4 style ={{color: '#121113'}}>troutTester</h4>
-        
-              </Card.Link>
-              
-            </Card.Body>
-        
-          </Card>
-          </CardSize>
-          <br />
-          <CardSize>
-            <Card >
-            <Card.Img variant="top"  src={imgTwo} alt="Img" style={{width: "248px", height: "164px"}} />
-            <Card.Body>
-              <Card.Link href="https://andypedonti.github.io/workDayPlanner/" target="_blank" >
-        
-              <h4 style ={{color: '#121113'}}>noteTaker</h4>
-        
-              </Card.Link>
-              
-            </Card.Body>
-        
-          </Card>
-          </CardSize>
-          <br />
-          <CardSize>
-            <Card >
-            <Card.Img variant="top"  src={imgFour} alt="Img" style={{width: "248px", height: "164px"}} />
-            <Card.Body>
-              <Card.Link href="https://andypedonti.github.io/newReactPortfolio/" target="_blank" >
-        
-              <h4 style ={{color: '#121113'}}>ReactPortfolio</h4>
-        
-              </Card.Link>
-              
-            </Card.Body>
-        
-          </Card>
-          </CardSize>
-          <br />
-          <CardSize>
-            <Card >
-            <Card.Img variant="top"  src={ImgFive} alt="Img" style={{width: "248px", height: "164px"}} />
-            <Card.Body>
-              <Card.Link href="https://github.com/andypedonti/processmaker" target="_blank" >
-        
-              <h4 style ={{color: '#121113'}}>ProcessMaker</h4>
-        
-              </Card.Link>
-              
-            </Card.Body>
-        
-          </Card>
-          </CardSize>
           </Container>
         
-        );
-            }           
+          )
+    }
        
     
     
