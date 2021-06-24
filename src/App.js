@@ -4,7 +4,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Topbar from "./components/Navbar";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import PortfolioItems from './components/pages/PortfolioItems';
-import Intrests from './components/pages/Interests';
 import Home from "./components/pages/Home";
 
 
@@ -24,9 +23,6 @@ function App() {
         <Switch>
           <Route path="/portfolio">
             <PortfolioItems />
-          </Route>
-          <Route path="/intrests">
-            <Intrests />
           </Route>
           <Route path="/">
             <Home />

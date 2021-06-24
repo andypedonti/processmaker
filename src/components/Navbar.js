@@ -47,7 +47,6 @@ function Topbar({location}) {
     <Nav className="mr-auto">
       <Nav.Link style={{color: "#F7F7F2"}} href="/" active={pathname==="/"}>{("Home")}</Nav.Link>
       <Nav.Link style={{color: "#F7F7F2"}} href="/portfolio" active={pathname==="/"}>{("Portfolio")}</Nav.Link>
-      <Nav.Link style={{color: "#F7F7F2"}} href="/intrests" active={pathname==="/"}>{("Intrests")}</Nav.Link>
     </Nav>
      <Form className="d-flex">
     <Email 
