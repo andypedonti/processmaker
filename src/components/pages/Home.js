@@ -5,7 +5,7 @@ import "../pages/Jumbotron.css";
 function Home() {
     return(
         
-           
+           <div>
                 
                     <Jumbotron className="Jumbotron">
                         <h1 className="text">Developer, Leader, Angler</h1>
@@ -16,7 +16,7 @@ function Home() {
                     
                     </Jumbotron>
                 
-   
+            </div>
     );
 }
 

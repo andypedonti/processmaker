@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, NavLink, Nav, Container, Form } from "react-bootstrap";
-import {  Link, useLocation, withRouter } from "react-router-dom";
+import {  Link, withRouter } from "react-router-dom";
 import "../components/Navbar.css";
 import {Github} from '@styled-icons/boxicons-logos/Github';
 import { EmailOutline} from '@styled-icons/evaicons-outline/EmailOutline';
@@ -35,27 +35,44 @@ cursor: pointer;
 }
 `;
 
-function Topbar() {
+function Topbar(props) {
     
-    const location = useLocation();
+   
     
     return(
-<Navbar className="Navbar" >
-  <Navbar.Brand style={{color: "#F7F7F2"}}>Andy Pedonti</Navbar.Brand>
-  
-  <Navbar.Collapse id="basic-navbar-nav">
-    <Nav className="mr-auto">
-      <Link style={{color: "#F7F7F2"}} 
-      to="/" className={location.pathname=== "/" ? "nav-link active" : "nav-link"}
-      >
-        Home
-        </Link>
-      <Link style={{color: "#F7F7F2"}} 
-      to="/portfolio" className={location.pathname==="/portfolio" ? "nav-link active" : "nav-link"}
-      >
+<div className="navigation" >
+<nav class="navbar navbar-expand navbar-dark bg-dark">
+  <div class="container" >
+  <Link class="navbar-brand" to="/" style={{color: "#F7F7F2"}}>
+    Andy Pedonti
+  </Link>
+    <div>  
+      <ul class="navbar-nav ml-auto">
+        <li
+          class={`nav-item ${
+            props.location.pathname === "/" ? "active" : ""
+          }`}>
+            <Link style={{color: "#F7F7F2"}} 
+             class="nav-link" to="/" 
+             >
+              Home
+              <span class="sr-only">(current)</span>
+             </Link>
+        </li>
+        <li
+          class={`nav-item ${
+          props.location.pathname === "/portfolio" ? "active" : ""
+          }`}
+        >
+          <Link style={{color: "#F7F7F2"}} 
+           class="nav-link" to="/portfolio" 
+            >
       Portfolio
       </Link>
-    </Nav>
+      </li>
+      </ul>
+      </div>
+    
      <Form className="d-flex">
     <Email 
     size="40" 
@@ -71,8 +88,10 @@ function Topbar() {
     />
      </Form>
     
-  </Navbar.Collapse>
-</Navbar>
+ 
+  </div>
+  </nav>
+</div>
         
  );
 }
