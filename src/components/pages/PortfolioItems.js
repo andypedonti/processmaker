@@ -21,6 +21,7 @@ aling-items: center;
 width: 100%;
 margin-left:  auto;
 margin-right: auto;
+height: 100vh;
 `;
 
 const CardSize = styled.div`

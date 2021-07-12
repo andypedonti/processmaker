@@ -5,7 +5,7 @@ import "../pages/Jumbotron.css";
 function Home() {
     return(
         
-           <div>
+           <div className="Container">
                 
                     <Jumbotron className="Jumbotron">
                         <h1 className="text">Developer, Leader, Angler</h1>

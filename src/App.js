@@ -5,6 +5,7 @@ import Topbar from "./components/Topbar";
 import { BrowserRouter, Router, Route, Switch, Redirect } from "react-router-dom";
 import PortfolioItems from './components/pages/PortfolioItems';
 import Home from "./components/pages/Home";
+import Footer from "./components/Footer";
 
 
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" exact component={() => <Home />} />
           <Route path="/portfolio" exact component={() => <PortfolioItems />} />
         </Switch>
+        <Footer />
 
         
       </BrowserRouter>
