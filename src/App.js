@@ -17,7 +17,6 @@ function App() {
         <Switch>
           <Route path="/" exact component={() => <Home />} />
           <Route path="/portfolio" exact component={() => <PortfolioItems />} />
-
         </Switch>
 
         
