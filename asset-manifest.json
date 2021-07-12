@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/processmaker/static/css/main.4b8e7f4c.chunk.css",
-    "main.js": "/processmaker/static/js/main.7e02053a.chunk.js",
-    "main.js.map": "/processmaker/static/js/main.7e02053a.chunk.js.map",
-    "runtime-main.js": "/processmaker/static/js/runtime-main.314e4748.js",
-    "runtime-main.js.map": "/processmaker/static/js/runtime-main.314e4748.js.map",
+    "main.js": "/processmaker/static/js/main.ee64cc83.chunk.js",
+    "main.js.map": "/processmaker/static/js/main.ee64cc83.chunk.js.map",
+    "runtime-main.js": "/processmaker/static/js/runtime-main.db5da53a.js",
+    "runtime-main.js.map": "/processmaker/static/js/runtime-main.db5da53a.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/processmaker/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.dee67487.chunk.js": "/processmaker/static/js/2.dee67487.chunk.js",
-    "static/js/2.dee67487.chunk.js.map": "/processmaker/static/js/2.dee67487.chunk.js.map",
-    "static/js/3.75558180.chunk.js": "/processmaker/static/js/3.75558180.chunk.js",
-    "static/js/3.75558180.chunk.js.map": "/processmaker/static/js/3.75558180.chunk.js.map",
+    "static/js/2.5bf04b33.chunk.js": "/processmaker/static/js/2.5bf04b33.chunk.js",
+    "static/js/2.5bf04b33.chunk.js.map": "/processmaker/static/js/2.5bf04b33.chunk.js.map",
+    "static/js/3.02c6b62d.chunk.js": "/processmaker/static/js/3.02c6b62d.chunk.js",
+    "static/js/3.02c6b62d.chunk.js.map": "/processmaker/static/js/3.02c6b62d.chunk.js.map",
     "index.html": "/processmaker/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/processmaker/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.4b8e7f4c.chunk.css.map": "/processmaker/static/css/main.4b8e7f4c.chunk.css.map",
-    "static/js/2.dee67487.chunk.js.LICENSE.txt": "/processmaker/static/js/2.dee67487.chunk.js.LICENSE.txt",
+    "static/js/2.5bf04b33.chunk.js.LICENSE.txt": "/processmaker/static/js/2.5bf04b33.chunk.js.LICENSE.txt",
     "static/media/015.58e09d8b.jpeg": "/processmaker/static/media/015.58e09d8b.jpeg",
     "static/media/016.dffbcdd6.jpeg": "/processmaker/static/media/016.dffbcdd6.jpeg",
     "static/media/BigBrown.1c50adb2.jpeg": "/processmaker/static/media/BigBrown.1c50adb2.jpeg",
@@ -23,10 +23,10 @@
     "static/media/DSC03197.87fb6247.jpeg": "/processmaker/static/media/DSC03197.87fb6247.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.314e4748.js",
+    "static/js/runtime-main.db5da53a.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.dee67487.chunk.js",
+    "static/js/2.5bf04b33.chunk.js",
     "static/css/main.4b8e7f4c.chunk.css",
-    "static/js/main.7e02053a.chunk.js"
+    "static/js/main.ee64cc83.chunk.js"
   ]
 }
